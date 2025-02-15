@@ -1,9 +1,14 @@
-import React, { FC } from 'react'
+import React, { FC } from 'react';
+import './styles/scss/main.scss';
+import Header from './components/Header/Header';
 
 const App: FC = () => {
-  return (
-    <div>Let's go!</div>
-  )
-}
+    return (
+        <>
+            <Header />
+            <div>   </div>
+        </>
+    );
+};
 
-export default App
+export default App;
