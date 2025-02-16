@@ -1,0 +1,46 @@
+@use '../../styles/scss/variables' as *;
+
+.admin {
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px;
+    width: 70%;
+    min-height: 100px;
+    border-radius: 15px;
+    background: $primary-gray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .wrapper {
+        background: $primary-white;
+        border-collapse: collapse;
+        thead {
+            th {
+                font-size: 24px;
+                padding: 20px;
+                padding-left: 10px;
+            }
+        }
+        tbody {
+            tr {
+                &:hover {
+                    background: $primary-dark-gray;
+                }
+                border-top: 1px solid $primary-dark-gray;
+                cursor: pointer;
+                td {
+                    padding: 10px;
+                    .text {
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 1;
+                        overflow: hidden;
+                    }
+                }
+                .number {
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}

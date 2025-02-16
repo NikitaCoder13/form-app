@@ -1,0 +1,50 @@
+@use '../../styles/scss/variables' as *;
+
+.login {
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    justify-content: center;
+    background: $primary-gray;
+    padding: 40px;
+    gap: 20px;
+    -webkit-box-shadow: -1px 7px 20px -8px rgba(66, 68, 90, 1);
+    -moz-box-shadow: -1px 7px 20px -8px rgba(66, 68, 90, 1);
+    box-shadow: -1px 7px 20px -8px rgba(66, 68, 90, 1);
+    h2 {
+        font-size: 28px;
+        font-weight: 500;
+    }
+    input {
+        height: 50px;
+        font-size: 20px;
+        width: 100%;
+        padding: 0 10px;
+        border-radius: 3px;
+        border: 1px solid gray;
+        background: #e9e9ed;
+        &:hover {
+            background: #d0d0d7;
+        }
+        &:active {
+            border: none;
+            border: 1px solid $primary-blue;
+        }
+    }
+    .error {
+        position: relative;
+        width: 100%;
+        .text {
+            width: 100%;
+            position: absolute;
+        }
+    }
+    .button {
+        width: 100%;
+    }
+}

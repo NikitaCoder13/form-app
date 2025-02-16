@@ -1,0 +1,17 @@
+@use '../../../styles/scss/variables' as *;
+
+.blueButton {
+    padding: 10px;
+    background: $primary-blue;
+    border: none;
+    border-radius: 5px;
+    color: $primary-white;
+    cursor: pointer;
+    transition: 0.2s ease;
+    &:hover {
+        opacity: 0.8;
+    }
+    &:active {
+        transform: translateY(3px);
+    }
+}
