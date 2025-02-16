@@ -1,4 +1,4 @@
-import IDataImport from "../models/IDataImport";
+import IDataImport from '../models/IDataImport';
 
 export const importData: IDataImport[] = [
     {
@@ -12,6 +12,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'A',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -24,6 +25,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'B',
         region: 'Санкт-Петербург',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -36,6 +38,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'C',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -48,6 +51,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'A',
         region: 'Санкт-Петербург',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -60,6 +64,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'B',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -72,6 +77,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'C',
         region: 'Санкт-Петербург',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -84,6 +90,7 @@ export const importData: IDataImport[] = [
         note: '№ скважины нанесен',
         storage: 'A',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -96,6 +103,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'B',
         region: 'Санкт-Петербург',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -108,6 +116,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'C',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -120,6 +129,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'A',
         region: 'Санкт-Петербург',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -132,6 +142,7 @@ export const importData: IDataImport[] = [
         note: '№ скважины нанесен',
         storage: 'B',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -144,6 +155,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'C',
         region: 'Санкт-Петербург',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -156,6 +168,7 @@ export const importData: IDataImport[] = [
         note: '№ скважины нанесен',
         storage: 'A',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -168,6 +181,7 @@ export const importData: IDataImport[] = [
         note: '№ скважины нанесен',
         storage: 'B',
         region: 'Санкт-Петербург',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -180,6 +194,7 @@ export const importData: IDataImport[] = [
         note: '№ скважины нанесен',
         storage: 'C',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -192,6 +207,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'A',
         region: 'Санкт-Петербург',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -204,6 +220,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'B',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -216,6 +233,7 @@ export const importData: IDataImport[] = [
         note: '№ скважины нанесен',
         storage: 'C',
         region: 'Санкт-Петербург',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -228,6 +246,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'A',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -240,6 +259,7 @@ export const importData: IDataImport[] = [
         note: '№ скважины нанесен',
         storage: 'B',
         region: 'Санкт-Петербург',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -252,6 +272,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'C',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -264,6 +285,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'A',
         region: 'Санкт-Петербург',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -276,6 +298,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'B',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -288,6 +311,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'C',
         region: 'Санкт-Петербург',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -300,6 +324,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'A',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -312,6 +337,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'B',
         region: 'Санкт-Петербург',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -324,6 +350,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'C',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -336,6 +363,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'A',
         region: 'Санкт-Петербург',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -348,6 +376,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'B',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -360,6 +389,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'C',
         region: 'Санкт-Петербург',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -372,6 +402,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'A',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -384,6 +415,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'B',
         region: 'Санкт-Петербург',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -396,6 +428,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'C',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -408,6 +441,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'A',
         region: 'Санкт-Петербург',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -420,6 +454,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'B',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -432,6 +467,7 @@ export const importData: IDataImport[] = [
         note: 'оформлен акт ОС-2 на внутр.пер',
         storage: 'C',
         region: 'Санкт-Петербург',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -444,6 +480,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'A',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -456,6 +493,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'B',
         region: 'Санкт-Петербург',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -468,6 +506,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'C',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -480,6 +519,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'A',
         region: 'Санкт-Петербург',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -492,6 +532,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'B',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -504,6 +545,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'C',
         region: 'Санкт-Петербург',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -516,6 +558,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'A',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -528,6 +571,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'B',
         region: 'Санкт-Петербург',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -540,6 +584,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'C',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -552,6 +597,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'A',
         region: 'Санкт-Петербург',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -564,6 +610,7 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'B',
         region: 'Омск',
+        status: '',
     },
     {
         subsidiaryCompany: '1020',
@@ -576,5 +623,6 @@ export const importData: IDataImport[] = [
         note: null,
         storage: 'C',
         region: 'Санкт-Петербург',
+        status: '',
     },
 ];

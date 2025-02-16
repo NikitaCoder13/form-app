@@ -13,7 +13,7 @@ const activeModalSlice = createSlice({
     name: 'activeModal',
     initialState,
     reducers: {
-        setActiveModal(state, action: PayloadAction<IDataImport>) {
+        setActiveModal(state, action: PayloadAction<IDataImport | null>) {
             state.value = action.payload;
         },
         clearActiveModal(state) {

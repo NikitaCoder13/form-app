@@ -5,9 +5,23 @@
     flex-direction: column;
     gap: 20px;
     width: 150px;
+    h3 {
+        margin-bottom: -15px;
+    }
     .options {
         display: flex;
         flex-direction: column;
+        input {
+            height: 30px;
+            padding: 0 10px;
+            border-radius: 3px;
+            border: 1px solid gray;
+            background: #e9e9ed;
+            cursor: pointer;
+            &:hover {
+                background: #d0d0d7;
+            }
+        }
         label {
             font-size: 18px;
         }
@@ -21,5 +35,12 @@
             }
         }
     }
-    
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .error {
+            color: rgb(193, 0, 0);
+        }
+    }
 }

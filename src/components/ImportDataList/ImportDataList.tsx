@@ -1,6 +1,5 @@
 import { FC, useEffect, useState } from 'react';
 import styles from './ImportDataList.module.scss';
-import { importData } from '../../data/importData';
 import IDataImport from '../../models/IDataImport';
 import { useAppDispatch, useAppSelector } from '../../redux/hooks';
 import Modal from '../Modal/Modal';
@@ -36,19 +35,18 @@ const ImportDataList: FC = () => {
     }, [storage, region, data]);
 
     return (
-        <table className={styles.data}>
-            <thead>
-                <tr>
-                    <th>№</th>
-                    <th>Наименование объекта</th>
-                    <th>Дочернее общество</th>
-                </tr>
-            </thead>
-            <tbody>
-                {filteredData.map((data, index) => (
-                    <>
-                        {activeModal?.code === data.code ? <Modal {...data} /> : null}
-                        <tr onClick={() => handleClickModal(data)} key={data.invertNumber}>
+        <>
+            <table className={styles.data}>
+                <thead>
+                    <tr>
+                        <th>№</th>
+                        <th>Наименование объекта</th>
+                        <th>Дочернее общество</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {filteredData.map((data, index) => (
+                        <tr onClick={() => handleClickModal(data)} key={data.code}>
                             <td className={styles.number}>{index + 1}</td>
                             <td title={data.nameObject}>
                                 <span className={styles.text}>{data.nameObject}</span>
@@ -57,10 +55,13 @@ const ImportDataList: FC = () => {
                                 <span className={styles.text}>{data.subsidiaryCompany}</span>
                             </td>
                         </tr>
-                    </>
-                ))}
-            </tbody>
-        </table>
+                    ))}
+                </tbody>
+            </table>
+            {filteredData.map((data) =>
+                activeModal?.code === data.code ? <Modal key={data.code} {...data} /> : null,
+            )}
+        </>
     );
 };
 

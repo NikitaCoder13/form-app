@@ -3,12 +3,14 @@ import styles from './BlueButton.module.scss';
 
 interface BlueButtonProps {
     children: React.ReactNode;
-    onClick: () => void;
+    type?: 'button' | 'submit' | 'reset';
+    onClick?: () => void;
+    className?: string;
 }
 
-const BlueButton: FC<BlueButtonProps> = ({ children, onClick }) => {
+const BlueButton: FC<BlueButtonProps> = ({ children, onClick, type, className }) => {
     return (
-        <button className={styles.blueButton} onClick={onClick}>
+        <button type={type} className={`${styles.blueButton} ${className}`} onClick={onClick}>
             {children}
         </button>
     );

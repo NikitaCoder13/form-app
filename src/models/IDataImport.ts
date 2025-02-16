@@ -9,4 +9,5 @@ export default interface IDataImport {
     note: string | null;
     storage: string;
     region: string;
+    status: string,
 }
