@@ -1,0 +1,36 @@
+@use '../../styles/scss/variables' as *;
+.data {
+    text-align: left;
+    border-collapse: collapse;
+    background: $primary-white;
+    border-radius: 10px;
+    width: 100%;
+    thead {
+        th {
+            font-size: 24px;
+            padding: 20px;
+            padding-left: 10px;
+        }
+    }
+    tbody {
+        tr {
+            &:hover {
+                background: $primary-dark-gray;
+            }
+            border-top: 1px solid $primary-dark-gray;
+            cursor: pointer;
+            td {
+                padding: 10px;
+                .text {
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 1;
+                    overflow: hidden;
+                }
+            }
+            .number {
+                font-weight: 900;
+            }
+        }
+    }
+}

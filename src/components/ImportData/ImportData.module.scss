@@ -1,0 +1,19 @@
+@use '../../styles/scss/variables' as *;
+
+.section {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 60%;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: $primary-gray;
+    .import {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        width: 100%;
+    }
+}

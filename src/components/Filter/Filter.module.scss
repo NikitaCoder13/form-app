@@ -1,0 +1,25 @@
+@use '../../styles/scss/variables' as *;
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 150px;
+    .options {
+        display: flex;
+        flex-direction: column;
+        label {
+            font-size: 18px;
+        }
+        select {
+            height: 30px;
+            padding: 0 10px;
+            cursor: pointer;
+            option {
+                cursor: pointer;
+                height: 30px;
+            }
+        }
+    }
+    
+}

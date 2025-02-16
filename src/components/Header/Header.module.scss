@@ -25,12 +25,17 @@
             color: $primary-white;
             cursor: pointer;
             border: 2px solid white;
+            font-weight: 900;
             padding: 10px;
             background: $primary-blue;
             border-radius: 5px;
+            transition: 0.2s ease;
             &:hover {
                 background: $primary-white;
                 color: $primary-blue;
+            }
+            &:active {
+                transform: translateY(5px);
             }
         }
     }
